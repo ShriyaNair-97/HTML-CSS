@@ -1,3 +1,20 @@
+@media screen and (max-width:800px) {
+    #headerSection header{
+    height: 80px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    background-color: aquamarine; 
+    }  
+    headertext{
+        position: absolute;
+        left:400px;
+        top: 20px;
+        color: darkred;
+    }
+
+}
 
 #headerSection header{
     height: 80px;
