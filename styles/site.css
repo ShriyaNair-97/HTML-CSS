@@ -1,0 +1,34 @@
+footer{
+    background-color: lightblue;
+}
+*{
+
+    background-color:gray;
+}
+table tr:nth-child(odd){
+    background-color: violet;
+}
+.mytable{
+    
+    margin-left: 200px;
+    border: 2px;
+}
+.mytable{
+    border-radius: 3px;
+}
+table tr td :nth-child(2){
+    background-color: green;
+
+#test {
+    font-family: cursive;
+    font-size: xx-large;
+}
+.test{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+body{
+    font-family: monospace;
+    font-size: xx-large;
+}
+

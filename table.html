@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>tables with positional selector</title>
+        <style>
+            .table{
+                border-top-width:"3px" ;
+            }
+           .table,th,td{
+               
+                font-size: xx-large;
+                border-radius:2%;
+                padding:10px;
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            .table tr:first-of-type th:first-of-type{
+  
+                border-top-left-radius: 10px;
+            }
+            .table tr:first-of-type th:last-of-type{
+                border-top-right-radius: 10px;
+            }
+            .table tr:last-of-type td:first-of-type{
+                border-bottom-left-radius: 10px;
+            }
+            .table tr:last-of-type td:last-of-type{   
+                border-bottom-right-radius: 10px;
+            }
+            .table tr:nth-child(2n){
+                background-color: yellow;
+                
+            }
+            .table tr:nth-child(2n+1){
+                background-color: orange;
+               
+            }
+            .table tr:first-of-type{
+                font-family: cursive;
+                background-color: thistle;
+            }
+            .table tr:hover{
+                background-color: palegreen;
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="table">
+            <tr>
+             <th>EmpId</th>
+             <th>Name</th>
+             <th>City</th>
+         </tr>
+         <tr>
+             <td>59144</td>
+             <td>shriya</td>
+             <td>bhopal</td>
+         </tr>
+         <tr>
+             <td>59237</td>
+             <td>Xyz</td>
+             <td>indore</td>
+         </tr>
+         <tr>
+             <td>59887</td>
+             <td>Qwe</td>
+             <td>sagar</td>
+         </tr>
+     </table>
+    </body>
+</html>

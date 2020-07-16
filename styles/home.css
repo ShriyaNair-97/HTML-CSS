@@ -1,0 +1,25 @@
+#main aside{
+  
+    height: 500px;
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+   
+}
+#main article{
+   margin-top: 0px;
+    height: auto;
+    width: 76%;
+    font-size: 19px;
+    float: left;
+    padding-left :10px;
+    padding-top: 10px;
+    column-count: 4;
+    text-align: justify;
+}
+#main article{
+    background: url(../image/background.jpeg) repeat;
+}
+#main aside{
+    background: url(../image/aside.jpeg);
+}

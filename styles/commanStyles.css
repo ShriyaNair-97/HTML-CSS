@@ -1,0 +1,76 @@
+
+#headerSection header{
+    height: 80px;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-bottom: 2px;
+    background: url(../image/zensarlog.jpeg) left no-repeat;
+    background-size: 190px;
+    border-radius: 5px;
+    border-bottom: 2px;
+    border-top: 2px;
+    background-color:rgb(255, 223, 181);
+}
+.headertext{
+    position: absolute;
+    left:600px;
+    top: 50px;
+    color: darkred;
+    text-shadow: 10px 10px 4px gray;
+}
+body{
+    background-color: rgb(229, 240, 240);
+}
+#headerSection nav{
+    height: 50px;
+    width: 90%;
+    margin-top: 0px;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+nav{
+    background-image: linear-gradient(to top ,#ffffff, rgb(255, 181, 61))
+}
+nav ul li{
+    display: inline;
+    margin-right: 70px;
+    font-family: monospace;
+    font-size: 1.5em;
+   
+} 
+nav ul a{
+    text-decoration: none ;
+    color: rgb(248, 46, 10);
+}
+
+nav ul li:nth-child(4){
+    margin-left: 500px;
+}
+nav ul a:hover{
+    background-color: rgb(231, 219, 231);
+    color: rgb(5, 61, 68);
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.pagefooter{ 
+  
+   background-color: rgb(152, 180, 231);
+    width: 19%;
+    
+    margin-left: 20px;
+    font-size: 1.0em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 1190px;
+    clear: both;
+
+}
+.pagefooter a{
+    text-decoration: none;
+}
+.pagefooter a:hover{
+    background-color: rgb(231, 219, 231);
+    color: rgb(5, 61, 68);
+    height: 40px;
+}
