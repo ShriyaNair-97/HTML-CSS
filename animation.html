@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animation</title>
+
+   <style>
+
+        @keyframes example {
+                from {background-color: red;}
+                to {background-color: yellow;}
+         }
+         #div1{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            animation: example 20s ;         
+         }
+         @keyframes example1 {
+                from {background-color:blueviolet;}
+                to {background-color: yellow;}
+         }
+         #div2{
+            width: 150px;
+            height: 150px;
+            background-color:green;
+            animation: example1;
+             animation-timing-function: ease;
+             animation-duration: 10s;
+            }
+        @keyframes example2 {
+                from {background-color:violet;}
+                to {background-color:grey;}
+         }
+        #div3{
+            width: 150px;
+            height: 150px;
+            animation: example2;
+            animation-duration: 50s;
+            animation-delay: 10s;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+        }
+        .animate{
+                display: flex;
+                justify-content: space-around;
+                height: auto;
+                border: 3px solid red;
+                border-radius: 3px;
+                padding: 10px;
+            }
+   </style> 
+</head>
+<body>
+    <div class="animate">
+
+    <div id="div1">This is @keyframes!</div>
+    <div id="div2">This is animation-timing-function!</div>
+    <div id="div3">This is animation-delay with infinite iteration!</div>
+
+    </div>
+</body>
+</html>
